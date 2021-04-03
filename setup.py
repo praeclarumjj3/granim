@@ -1,9 +1,15 @@
 from setuptools import setup
 
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(name='granim',
-      version='0.1',
+      version='0.1.1',
       description='Plotting animated graphs using manim.',
-      long_description='The package helps you plot animated graphs using the manim engine.',
+      long_description=long_description,
+      long_description_content_type='text/markdown',
       classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
