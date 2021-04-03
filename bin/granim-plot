@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ $2 = "csv" ]; then
+   manim granim/granim_plot.py PlotCSV -im --video_dir $1
+else
+   manim granim/granim_plot.py PlotPoints -im --video_dir $1
+fi
+
+rm -r media/
+rm -r $1/granim_plot/720p30/partial_movie_files/
+mv $1/granim_plot/720p30/*.gif $1/
+mv $1/granim_plot/720p30/*.mp4 $1/
+rm -r $1/granim_plot/
+rm -rf `find -type d -name __pycache__`
