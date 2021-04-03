@@ -5,7 +5,7 @@ setup(name='granim',
       description='Plotting animated graphs using manim.',
       long_description='The package helps you plot animated graphs using the manim engine.',
       classifiers=[
-        'Development Status :: 1 - Beta',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.7',
       ],

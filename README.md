@@ -3,23 +3,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-<!-- .. image:: https://ci.appveyor.com/api/projects/status/cbv7ak2i59wf3lpj?svg=true
+.. image:: https://ci.appveyor.com/api/projects/status/cbv7ak2i59wf3lpj?svg=true
     :alt: numpy-stl test status 
-    :target: https://ci.appveyor.com/project/WoLpH/numpy-stl
+    :target: https://ci.appveyor.com/project/praeclarumjj3/granim
 
-.. image:: https://travis-ci.org/WoLpH/numpy-stl.svg?branch=master
-    :alt: numpy-stl test status 
-    :target: https://travis-ci.org/WoLpH/numpy-stl
-
-.. image:: https://badge.fury.io/py/numpy-stl.svg
-    :alt: numpy-stl Pypi version 
-    :target: https://pypi.python.org/pypi/numpy-stl
-
-.. image:: https://coveralls.io/repos/WoLpH/numpy-stl/badge.svg?branch=master
-    :alt: numpy-stl code coverage 
-    :target: https://coveralls.io/r/WoLpH/numpy-stl?branch=master
-
-.. image:: https://img.shields.io/pypi/pyversions/numpy-stl.svg -->
+.. image:: https://badge.fury.io/py/granim.svg
+    :alt: granim Pypi version 
+    :target: https://pypi.python.org/pypi/granim
 
 A **Python Package** to plot graphs using the [Manim](https://github.com/3b1b/manim) Engine.
 
